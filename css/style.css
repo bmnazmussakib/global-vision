@@ -457,108 +457,387 @@ body {
 }
 
 @media (max-width: 576px) {
-    .what-we-card-wrapper {
-        margin-left: 68px;
-    }
+  .what-we-card-wrapper {
+    margin-left: 68px;
+  }
 }
 /* ==================what-we End================== */
 
-
-
 /* ==================where-study Start================== */
 .where-study {
-    padding: 60px 0 35px 0;
+  padding: 60px 0 35px 0;
 }
 
 .where-study-text-wrapper {
-    text-align: center;
-    margin-bottom: 32px;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 .where-study-title {
-    margin-bottom: 13px;
+  margin-bottom: 13px;
 }
 
 .where-study-card {
-    border-radius: 20px !important;
-    position: relative;
-    height: 315px;
-    width: 230px;
-    padding: 35px;
+  border-radius: 20px !important;
+  position: relative;
+  height: 315px;
+  width: 230px;
+  padding: 35px;
 }
 
 .where-study-card-1 {
-    background: url('../img/country/study-in-usa.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25em;
+  background: url("../img/country/study-in-usa.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25em;
 }
 .where-study-card-2 {
-    background: url('../img/country/study-in-canada.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25em;
+  background: url("../img/country/study-in-canada.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25em;
 }
 .where-study-card-3 {
-    background: url('../img/country/study-in-germany.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25em;
+  background: url("../img/country/study-in-germany.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25em;
 }
 .where-study-card-4 {
-    background: url('../img/country/study-in-australia.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25em;
+  background: url("../img/country/study-in-australia.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25em;
 }
 .where-study-card-5 {
-    background: url('../img/country/study-in-France.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25em;
+  background: url("../img/country/study-in-France.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25em;
 }
 .where-study-card-6 {
-    background: url('../img/country/study-in-sweden.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25em;
+  background: url("../img/country/study-in-sweden.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25em;
 }
 .where-study-card-7 {
-    background: url('../img/country/study-in-Netherlands.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25em;
+  background: url("../img/country/study-in-Netherlands.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25em;
 }
 .where-study-card-8 {
-    background: url('../img/country/study-in-uk.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 25em;
+  background: url("../img/country/study-in-uk.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25em;
 }
 
 .where-study-card h5 {
-    position: absolute;
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .where-study-card img {
-    border-radius: 20px !important;
+  border-radius: 20px !important;
 }
 
-@media (max-width: 576px) { 
-    .where-study-card-wrapper {
-        margin-left: 150px;
-    }
- }
+@media (max-width: 576px) {
+  .where-study-card-wrapper {
+    margin-left: 150px;
+  }
+}
 /* ==================where-study End================== */
-
-
 
 /* ==================req-consult Start================== */
 .req-consult {
-    
+  background: url("../img/gsdfgd.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 78px;
+  padding-bottom: 78px;
+  border-top: 3px solid #00b8f6;
+  border-bottom: 3px solid #00b8f6;
+}
+
+.req-consult-content {
+  padding-right: 150px;
+}
+.req-consult-content p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+.req-consult-content h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.req-consult-content h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #04abf9;
+}
+
+.form-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.form-wrapper {
+  width: 340px;
+  height: 440px;
+}
+
+form {
+  background-color: #f5f5f5;
+  padding: 24px 20px 35px 20px;
+  border-radius: 5px;
+}
+
+form input {
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+}
+
+form textarea {
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+  padding: 10px;
+}
+
+.form-btn {
+  background-color: #09a4f4;
+  border: 1px solid #09a4f4;
+  padding: 15px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.form-btn:hover {
+  background-color: #fff;
+  padding: 15px;
+  font-weight: 700;
+  color: #09a4f4;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .form-wrapper {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .req-consult {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-wrapper {
+    margin-top: 50px;
+    margin-left: 120px;
+  }
+  .req-consult {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .req-consult {
+    text-align: left;
+  }
+  .form-wrapper {
+    margin-left: 0px;
+  }
 }
 /* ==================req-consult End================== */
+
+/* ==================Footer Start================== */
+.footer {
+}
+.footer-top {
+  padding: 50px 0;
+  background-color: #00b8f6;
+}
+
+.footer-widget {
+}
+
+.footer-widget-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.footer-widget-title-1::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background: #342f2c;
+    left: -10px;
+    top: 3px;
+    position: absolute;
+}
+
+.footer-widget-title-2::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background: #fe0084;
+    left: -10px;
+    top: 3px;
+    position: absolute;
+}
+
+.footer-widget-title-3::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background: #fe0084;
+    left: -10px;
+    top: 3px;
+    position: absolute;
+}
+
+.footer-widget ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-widget ul li {
+  margin: 5px 0;
+}
+
+.footer-widget ul li a {
+  text-decoration: none;
+  font-style: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social-icon a{
+    display: inline-block;
+    margin: 0 3px;
+}
+.social-icon a img{
+    width: 35px
+}
+
+/* @media (min-width: 576px) {  } */
+
+/* @media (min-width: 768px) {  } */
+
+@media (min-width: 992px) { 
+    .footer {
+    }
+    .footer-top {
+      padding: 50px 0;
+      background-color: #00b8f6;
+    }
+    
+    .footer-widget {
+    }
+    
+    .footer-widget-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 20px;
+        position: relative;
+        margin-left: 10px;
+    }
+    
+    .footer-widget-title-1::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background: #342f2c;
+        left: -10px;
+        top: 3px;
+        position: absolute;
+    }
+    
+    .footer-widget-title-2::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background: #fe0084;
+        left: -10px;
+        top: 3px;
+        position: absolute;
+    }
+    
+    .footer-widget-title-3::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background: #fe0084;
+        left: -10px;
+        top: 3px;
+        position: absolute;
+    }
+    
+    .footer-widget ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    
+    .footer-widget ul li {
+      margin: 5px 0;
+    }
+    
+    .footer-widget ul li a {
+      text-decoration: none;
+      font-style: 12px;
+      font-weight: 600;
+      color: #fff;
+    }
+    
+    .social-icon{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .social-icon a{
+        display: inline-block;
+        margin: 0 3px;
+    }
+    .social-icon a img{
+        width: 35px
+    }
+ }
+
+/* @media (min-width: 1200px) {  } */
+
+/* @media (min-width: 1400px) {  } */
+/* ==================Footer End================== */
