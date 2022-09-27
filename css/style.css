@@ -169,9 +169,94 @@ body {
 
 /* ==================Header End================== */
 
-/* Banner Start */
+/* ==================Banner Start================== */
+.banner {
+  position: relative;
+}
 
-/* Banner End */
+.nav-menu {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 180px;
+}
+
+.logo img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nav-menu-item {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+.nav-menu-link {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.nav-menu-link a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #111111;
+}
+
+
+.carousel-caption {
+  top: 42%;
+  left: -10%;
+}
+
+.carousel-caption h1 {
+  font-size: 3vw !important;
+  font-weight: 700;
+}
+
+.banner-card-wrapper {
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 30px; */
+}
+
+.banner-card {
+  width: 250px;
+  height: 150px;
+  background-color: #00000077;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.banner-img {
+  /* margin-right: 10px; */
+}
+
+.banner-img i {
+  color: #00b8f6;
+  font-size: 50px;
+}
+
+.banner-card-text {
+  color: #fff;
+  font-size: 1.6vw;
+  font-weight: 800;
+}
+
+/* ==================Banner End================== */
 
 /* ==================Get Consult Start================== */
 .get-consult {
