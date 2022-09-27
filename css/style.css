@@ -1,0 +1,564 @@
+/* @media (min-width: 576px) {  } */
+
+/* @media (min-width: 768px) {  } */
+
+/* @media (min-width: 992px) {  } */
+
+/* @media (min-width: 1200px) {  } */
+
+/* @media (min-width: 1400px) {  } */
+
+/* ================Common start================ */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-small-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.section-text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+@media (min-width: 576px) {
+  .section-small-text {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .section-title {
+    font-size: 25px;
+    font-weight: 800;
+  }
+
+  .section-text {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-small-text {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .section-title {
+    font-size: 28px;
+    font-weight: 800;
+  }
+
+  .section-text {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-small-text {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .section-title {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .section-text {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+  }
+}
+
+/* @media (min-width: 1200px) {  } */
+
+/* @media (min-width: 1400px) {  } */
+
+/* ================Common start================ */
+
+/* ==================Header Start================== */
+.header {
+  background-color: #111111;
+}
+
+.header-menu-left {
+}
+
+.header-menu-left ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.header-menu-left ul li {
+  margin-right: 15px;
+}
+
+.header-menu-left ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header-btn-wrapper {
+  text-align: right;
+}
+
+.header-btn {
+  text-decoration: none;
+  color: #ffffff;
+  background: #aa222e;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  transition: all 0.3s;
+}
+
+.header-btn:hover {
+  text-decoration: none;
+  color: #aa222e;
+  background: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+@media (min-width: 576px) {
+  .header-menu-left ul li a {
+    font-size: 10px;
+  }
+  .header-btn {
+    font-size: 10px;
+  }
+  .header-menu-left ul li {
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-menu-left ul li a {
+    font-size: 14px;
+  }
+  .header-btn {
+    font-size: 12px;
+  }
+  .header-menu-left ul li {
+    margin-right: 15px;
+  }
+}
+
+/* ==================Header End================== */
+
+/* Banner Start */
+
+/* Banner End */
+
+/* ==================Get Consult Start================== */
+.get-consult {
+  height: 190px;
+  background: url("../img/asfdasdfasdf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  border-top: 3px solid #01bafa;
+  border-bottom: 3px solid #01bafa;
+}
+.get-consult-left {
+}
+.get-consult-left h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.get-consult-left p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+}
+.get-consult-action {
+}
+.get-consult-action p {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.get-consult-btn {
+  background: #01bafa;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.get-consult-btn:hover {
+  background: #fff;
+  color: #01bafa;
+}
+
+@media (min-width: 576px) {
+  .get-consult-left h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .get-consult-left p {
+    font-size: 10px;
+  }
+  .get-consult-action p {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .get-consult-btn {
+    padding: 10px 16px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .get-consult-left h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .get-consult-left p {
+    font-size: 10px;
+  }
+  .get-consult-btn {
+    padding: 10px 16px;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .get-consult {
+    height: 190px;
+    background: url("../img/asfdasdfasdf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    border-top: 3px solid #01bafa;
+    border-bottom: 3px solid #01bafa;
+  }
+  .get-consult-left {
+  }
+  .get-consult-left h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .get-consult-left p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .get-consult-action {
+  }
+  .get-consult-action p {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  .get-consult-btn {
+    background: #01bafa;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  .get-consult-btn:hover {
+    background: #fff;
+    color: #01bafa;
+  }
+}
+
+/* @media (min-width: 1200px) {  } */
+
+/* @media (min-width: 1400px) {  } */
+
+/* ==================Get Consult End================== */
+
+/* ==================Admission Start================== */
+.admission {
+  padding-top: 36px;
+  padding-bottom: 52px;
+}
+
+.admission-content .section-small-text {
+  color: #72af35;
+}
+.admission-content .section-title {
+  color: #01bafa;
+  margin-bottom: 48px;
+}
+.admission-content .section-text {
+  color: #686868;
+  margin-bottom: 30px;
+}
+
+.read-more-btn {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px 35px;
+  background-image: linear-gradient(to right, #00b8f6, #027393);
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.admission-img {
+  text-align: center;
+}
+.admission-img img {
+  max-width: 400px;
+}
+
+@media (min-width: 576px) {
+  .admission-content .section-title {
+    margin-bottom: 25px;
+  }
+  .admission-content .section-text {
+    margin-bottom: 25px;
+  }
+  .read-more-btn {
+    font-size: 10px;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .admission-content {
+    margin-bottom: 40px;
+  }
+
+  .admission-content .section-title {
+    margin-bottom: 25px;
+  }
+  .admission-content .section-text {
+    margin-bottom: 25px;
+  }
+  .read-more-btn {
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  .read-more-btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 35px;
+    background-image: linear-gradient(to right, #00b8f6, #027393);
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+}
+
+/* @media (min-width: 1200px) {  } */
+
+/* @media (min-width: 1400px) {  } */
+
+/* ==================Admission End================== */
+
+/* ==================what-we Start================== */
+.what-we {
+  background: linear-gradient(
+    180deg,
+    rgba(1, 180, 244, 1) 0%,
+    rgba(32, 81, 160, 1) 100%
+  );
+  padding: 44px 0;
+}
+
+.what-we-text .section-small-text {
+  color: #fff;
+}
+
+.what-we-text > .section-small-text::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 3px;
+  background: #fd1f5c;
+  margin-right: 10px;
+}
+
+.what-we-title {
+  color: #fff;
+  margin-top: 35px;
+}
+
+.what-we-card {
+  min-height: 410px;
+  max-width: 230px;
+  text-align: center;
+  border-radius: 0;
+}
+
+.what-we-card-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.what-we-card-text {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.what-we-card-btn {
+  text-decoration: none;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 22, 111, 1) 0%,
+    rgba(254, 109, 44, 1) 100%
+  );
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+@media (max-width: 576px) {
+    .what-we-card-wrapper {
+        margin-left: 68px;
+    }
+}
+/* ==================what-we End================== */
+
+
+
+/* ==================where-study Start================== */
+.where-study {
+    padding: 60px 0 35px 0;
+}
+
+.where-study-text-wrapper {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.where-study-title {
+    margin-bottom: 13px;
+}
+
+.where-study-card {
+    border-radius: 20px !important;
+    position: relative;
+    height: 315px;
+    width: 230px;
+    padding: 35px;
+}
+
+.where-study-card-1 {
+    background: url('../img/country/study-in-usa.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25em;
+}
+.where-study-card-2 {
+    background: url('../img/country/study-in-canada.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25em;
+}
+.where-study-card-3 {
+    background: url('../img/country/study-in-germany.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25em;
+}
+.where-study-card-4 {
+    background: url('../img/country/study-in-australia.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25em;
+}
+.where-study-card-5 {
+    background: url('../img/country/study-in-France.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25em;
+}
+.where-study-card-6 {
+    background: url('../img/country/study-in-sweden.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25em;
+}
+.where-study-card-7 {
+    background: url('../img/country/study-in-Netherlands.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25em;
+}
+.where-study-card-8 {
+    background: url('../img/country/study-in-uk.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25em;
+}
+
+.where-study-card h5 {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.where-study-card img {
+    border-radius: 20px !important;
+}
+
+@media (max-width: 576px) { 
+    .where-study-card-wrapper {
+        margin-left: 150px;
+    }
+ }
+/* ==================where-study End================== */
+
+
+
+/* ==================req-consult Start================== */
+.req-consult {
+    
+}
+/* ==================req-consult End================== */
