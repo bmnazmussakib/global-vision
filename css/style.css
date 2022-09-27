@@ -668,6 +668,31 @@ form textarea {
 }
 /* ==================req-consult End================== */
 
+
+
+/* ==================Testimonial Start================== */
+/* ==================Testimonial End================== */
+
+
+/* ==================News Start================== */
+.news {
+    background-color: #eaeaea;
+    padding: 5px 0;
+    border-bottom: 2px solid #a9adb0;
+}
+
+.news-wrapper {
+    margin-top: 8px;
+}
+
+.news-wrapper .marquee {
+    font-size: 140px;
+    font-weight: 800 !important;
+}
+/* ==================News End================== */
+
+
+
 /* ==================Footer Start================== */
 .footer {
 }
@@ -694,7 +719,7 @@ form textarea {
     width: 3px;
     height: 20px;
     background: #342f2c;
-    left: -10px;
+    /* left: -10px; */
     top: 3px;
     position: absolute;
 }
@@ -750,30 +775,89 @@ form textarea {
     width: 35px
 }
 
-/* @media (min-width: 576px) {  } */
+@media (min-width: 576px) { 
+    .footer-widget {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer-widget-title-1::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background: #342f2c;
+        left: 180px;
+        top: 3px;
+        position: absolute;
+    }
+    
+    .footer-widget-title-2::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background: #fe0084;
+        left: 155px;
+        top: 3px;
+        position: absolute;
+    }
+    
+    .footer-widget-title-3::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background: #fe0084;
+        left: 165px;
+        top: 3px;
+        position: absolute;
+    }
+ }
 
-/* @media (min-width: 768px) {  } */
+@media (min-width: 768px) { 
+    .footer-widget {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer-widget-title-1::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background: #342f2c;
+        left: 272px;
+        top: 3px;
+        position: absolute;
+    }
+    
+    .footer-widget-title-2::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background: #fe0084;
+        left: 245px;
+        top: 3px;
+        position: absolute;
+    }
+    
+    .footer-widget-title-3::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 20px;
+        background: #fe0084;
+        left: 255px;
+        top: 3px;
+        position: absolute;
+    }
+ }
 
 @media (min-width: 992px) { 
-    .footer {
-    }
-    .footer-top {
-      padding: 50px 0;
-      background-color: #00b8f6;
-    }
-    
     .footer-widget {
+        text-align: left;
+        margin-bottom: 0px;
     }
-    
-    .footer-widget-title {
-        font-size: 20px;
-        font-weight: 700;
-        color: #fff;
-        margin-bottom: 20px;
-        position: relative;
-        margin-left: 10px;
-    }
-    
     .footer-widget-title-1::before {
         content: "";
         display: inline-block;
@@ -806,35 +890,16 @@ form textarea {
         top: 3px;
         position: absolute;
     }
-    
-    .footer-widget ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    
-    .footer-widget ul li {
-      margin: 5px 0;
-    }
-    
-    .footer-widget ul li a {
-      text-decoration: none;
-      font-style: 12px;
-      font-weight: 600;
-      color: #fff;
-    }
-    
-    .social-icon{
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-    }
-    .social-icon a{
-        display: inline-block;
-        margin: 0 3px;
-    }
-    .social-icon a img{
-        width: 35px
-    }
+ }
+
+
+ .footer-bottom {
+    background-color: #2f2f2f;
+    color: #f5f5f562;
+    padding: 20px 0;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
  }
 
 /* @media (min-width: 1200px) {  } */
