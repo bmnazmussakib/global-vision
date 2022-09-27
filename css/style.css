@@ -756,13 +756,60 @@ form textarea {
 
 
 /* ==================Testimonial Start================== */
+.testimonial {
+  padding: 50px 0;
+  position: relative;
+  background-color: #f2fbff;
+}
+
+.quote-icon {
+  position: absolute;
+  top: 20%;
+  z-index: 10;
+}
+
+.quote-icon i {
+  font-size: 80px;
+  color: #00b8f6;
+}
+
+.testimonial-card {
+  padding: 20px;
+  width: 260px;
+  height: 325px;
+  box-shadow: -2px -1px 22px -5px rgba(0,0,0,0.77);
+  border-bottom: 3px solid #01bafa;
+  background-color: #fff;
+}
+.testimonial-card-img {
+  width: 80px;
+  margin: auto;
+}
+
+.testimonial-card-img img {
+  width: 100%;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 50px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+  background-color: #111111;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  border: 2px solid #111111;
+  width: 20px;
+  height: 20px;
+}
 /* ==================Testimonial End================== */
 
 
 /* ==================News Start================== */
 .news {
     background-color: #eaeaea;
-    padding: 5px 0;
+    padding: 0px 0;
     border-bottom: 2px solid #a9adb0;
 }
 
@@ -770,9 +817,11 @@ form textarea {
     margin-top: 8px;
 }
 
-.news-wrapper .marquee {
-    font-size: 140px;
-    font-weight: 800 !important;
+.news-wrapper marquee {
+    font-size: 14px;
+    font-weight: 700 !important;
+    color: #04abf9;
+    margin-top: 10px;
 }
 /* ==================News End================== */
 
